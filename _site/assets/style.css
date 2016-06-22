@@ -1,0 +1,146 @@
+html{
+    margin:0;
+    font-family: sans-serif;
+}
+body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+
+}
+#wrapper{
+    margin: 0;
+    padding:0;
+}
+#topnav{
+    width:100%;
+    border-bottom: 3px solid black;
+    background-color: white;
+    padding: 1%;
+    position: fixed;
+    z-index: 1;
+    height: 5%;
+    top:0;
+}
+#navlist{
+    list-style: none;
+    float:right;
+    width: 30%;
+    display: block;    
+}
+#topnav li{
+    
+    float:left;
+    width:-moz-fit-content; 
+    width:-webkit-fit-content; 
+    display: inline-block;
+    margin:2%;
+    
+}
+.mission{
+    color:#000000;
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    position: relative;
+    top: 30%;
+
+}
+.whitebox{
+    background-color: white;
+    border:3px solid black;
+    padding:1%;
+    margin: 3%;
+}
+.blackbox{
+    background-color: black;
+    color:#ffffff;
+    padding:1%;
+    margin: 3%;
+}
+.greenbox{
+    background-color: #669686;
+    border:3px solid black;
+    padding:1%;
+    margin: 3%;
+}
+.yellowbox{
+    background-color: #f4c541;
+    border:3px solid black;
+    padding:1%;
+    margin: 3%;
+}
+.redbox{
+    background-color: #66001c;
+    border:3px solid black;
+    padding:1%;
+    margin: 3%;
+    color:beige;
+}
+.bluebox{
+    background-color: #232694;
+    border:3px solid black;
+    padding:1%;
+    margin: 3%;
+    color:beige;
+}
+
+.fold-1
+{
+    background: url("./images/nyny.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+.fold-2{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#processlist{
+    
+    counter-reset:li;
+}
+#processlist > li{
+    margin:0 0 6px 2em;
+    padding:4px 8px;
+    list-style-type: none;
+}
+#processlist > li:before{
+
+    content: counter(li)" / " ; /* Use the counter as content */
+    counter-increment:li;
+    font-weight: bold;
+    font-size: 1.7em;
+
+}
+.processtepheader{
+    display: inline-flex;
+    width: 80%;
+}
+.fold-3{
+    background: url("./images/detroitindustry.jpg") no-repeat center center fixed;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#disciplines{
+ display: flex;
+    flex-wrap: wrap;   
+}
+#takeon{
+    position: relative;
+    top:30%;
+}
+#hireus{
+    background: url("./images/otherside.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height:100%;
+}
