@@ -8,6 +8,9 @@ body{
     padding: 0;
 
 }
+.centered{
+    text-align: center;
+}
 #wrapper{
     margin: 0;
     padding:0;
@@ -100,6 +103,18 @@ body{
     display: block;
     margin: 0 auto;
 }
+.fold-3{
+    background: url("./images/detroitindustry.jpg") no-repeat center center fixed;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+}
+.fold-4{
+    display: flex;
+    flex-flow: column wrap;
+}
 #processlist{
     
     counter-reset:li;
@@ -121,14 +136,7 @@ body{
     display: inline-flex;
     width: 80%;
 }
-.fold-3{
-    background: url("./images/detroitindustry.jpg") no-repeat center center fixed;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 #disciplines{
  display: flex;
     flex-wrap: wrap;   
