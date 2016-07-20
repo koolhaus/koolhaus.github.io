@@ -224,3 +224,7 @@ h3.checkout{
 .half{
     width: 50%;
 }
+.section{
+    
+    display: flex;
+}
