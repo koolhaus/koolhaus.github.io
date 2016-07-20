@@ -104,8 +104,14 @@ body{
     margin: 0 auto;
 }
 .fold-3{
-    width: 100%;
     border-top: 1px solid grey;
+    padding-right:10%;
+    padding-left:10%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    height: auto;
+
 }
 .fold-4{
     background: url("./images/detroitindustry.jpg") no-repeat center center fixed;
@@ -116,6 +122,7 @@ body{
     
 }
 .fold-5{
+    height: 100%;
     display: flex;
     flex-flow: column wrap;
 }
@@ -140,7 +147,13 @@ body{
     display: inline-flex;
     width: 80%;
 }
-
+.checkout{
+    position: relative;
+    top:180px;
+}
+h3.checkout{
+    margin: 5%;
+}
 #disciplines{
  display: flex;
     flex-wrap: wrap;   
@@ -149,10 +162,65 @@ body{
     position: relative;
     top:30%;
 }
+
 #hireus{
     background: url("./images/otherside.jpg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
     width:100%;
     height:100%;
+}
+#hireusshout{
+    color:#000000;
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    position: relative;
+    border: 3px solid black;
+    top:10%;
+}
+#actions{
+    position: relative;
+    top: 10%;
+    display: flex;
+    height: fit-content;
+}
+#actions > div{
+    width: 50%;
+    
+    font-size: 2rem;
+    padding: 15px;
+}
+#wantto{
+    position: relative;
+    top:7%;
+    margin-bottom: 0;
+    
+}
+.clientbox{
+    border:1px solid black;
+    height: 500px;
+    width: 600px;
+    margin: 1%;
+    box-shadow: 2px 2px 6px black;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.browsercontrol {
+    border-bottom: 1px solid black;
+
+}
+.clientwindow{
+    height: 90%
+
+}
+.clientimage{
+        width: 100%;
+    position: relative;
+    top: 40%;
+}
+.half{
+    width: 50%;
 }
