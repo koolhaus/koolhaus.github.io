@@ -224,6 +224,7 @@ h3.checkout{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
+    background-color: #ffffff;
 }
 .browsercontrol {
     border-bottom: 1px solid black;
@@ -234,7 +235,7 @@ h3.checkout{
 
 }
 .clientimage{
-        width: 100%;
+    width: 100%;
     position: relative;
     top: 40%;
 }
@@ -245,9 +246,8 @@ h3.checkout{
     
     display: flex;
     position: relative;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding:3% 5%;
 }
-.odd{
+.s-odd{
     background-color: #f1f1f1;
 }
