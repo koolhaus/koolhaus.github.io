@@ -1,6 +1,10 @@
 html{
     margin:0;
     font-family: sans-serif;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body{
     height:100%;
@@ -14,6 +18,8 @@ body{
 #wrapper{
     margin: 0;
     padding:0;
+    height: 100%;
+    padding-top: 40px;
 }
 #topnav{
     width:100%;
@@ -22,13 +28,13 @@ body{
     padding: 1%;
     position: fixed;
     z-index: 1;
-    height: 5%;
+    height: 70px;
     top:0;
 }
 #navlist{
     list-style: none;
     float:right;
-    width: 30%;
+    width: 35%;
     display: block;    
 }
 #topnav li{
@@ -49,6 +55,18 @@ body{
     position: relative;
     top: 30%;
 
+}
+.ourwork{
+    color:#000000;
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    
+
+
+}
+.ourwork:after {
+    clear: both;
 }
 .whitebox{
     background-color: white;
@@ -227,4 +245,10 @@ h3.checkout{
 .section{
     
     display: flex;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.odd{
+    background-color: #f1f1f1;
 }
