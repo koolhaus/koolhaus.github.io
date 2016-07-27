@@ -164,11 +164,10 @@ body{
     display: inline-flex;
     width: 80%;
 }
-.checkout{
-    position: relative;
-    top:180px;
+{
+    margin: 5%;
 }
-h3.checkout{
+p.checkout, h3.checkout{
     margin: 5%;
 }
 #disciplines{
