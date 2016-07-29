@@ -2,9 +2,13 @@ html{
     margin:0;
     font-family: sans-serif;
     box-sizing: border-box;
+    height: 100%;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  padding:0;
+  margin:0;
+
 }
 body{
     height:100%;
@@ -119,6 +123,7 @@ body{
     width: 80%;
     display: block;
     margin: 0 auto;
+    border-top: 1px solid transparent;
 }
 .fold-3{
     border-top: 1px solid grey;
@@ -139,9 +144,9 @@ body{
     
 }
 .fold-5{
-    height: 100%;
-    display: flex;
-    flex-flow: column wrap;
+    border-top: 1px solid transparent;
+
+    
 }
 #processlist{
     
@@ -195,6 +200,7 @@ p.checkout, h3.checkout{
     position: relative;
     border: 3px solid black;
     top:10%;
+    
 }
 #actions{
     position: relative;
@@ -207,6 +213,9 @@ p.checkout, h3.checkout{
     
     font-size: 2rem;
     padding: 15px;
+}
+#referral{
+    width: 40%;
 }
 #wantto{
     position: relative;
