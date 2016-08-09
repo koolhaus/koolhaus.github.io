@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <script type="text/javascript">
+        <!--
+        function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'block')
+              e.style.display = 'none';
+           else
+              e.style.display = 'block';
+        }
+        //-->
+    </script>
 </head>
 <body>
 <div id="wrapper">
-    <nav id=topnav> <a href="/"><img src="./assets/images/kh.png" width="3%"></a>
+    <nav id=topnav> <a href="/"><img src="./assets/images/kh.png" id="logo"></a>
     
-        <ul id="navlist">
+        <ul id="navlist" class="collapsing-navigation">
             <a><li>our mission</li></a>
             <a><li>our process</li></a>
             <a><li>our foci</li></a>
             <a href="/work"><li>our work</li></a>
             <a><li>hire us</li></a>
         </ul>
-
+        <button onclick="toggle_visibility('navlist');" class="mobile"> /*/ </button>
     </nav>
     <div class="fold-1">
-        <div class="mission"> Our Mission Is Your Mission</div>
+        <div class="banner-box">
+            <span class="mission"> OUR MISSION IS YOUR MISSION</span>        
+        </div>
+        
         <div id="takeon" class="whitebox"> We take on the immense challenges that matter to our clients and, often, to the world. Our mission is to help our clients make distinctive, lasting, and substantial strides toward their vision.
 
         In short—our mission is your mission.</div>
