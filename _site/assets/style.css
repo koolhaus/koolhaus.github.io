@@ -58,30 +58,6 @@ body{
         padding:1%;
         margin: 3%;
     }
-@media screen and (min-width: 768px) {     
-    .mobile{
-        display: none;
-    }
-    #wrapper{
-        margin: 0;
-        padding:0;
-        height: 100%;
-        padding-top: 40px;
-    }
-    
-    
-    .ourwork{
-        color:#000000;
-        font-size: 100px;
-        text-align: center;
-        height: 100%;
-        background: url("./images/sparks.jpg") no-repeat center center fixed;
-        background-size: cover;
-
-
-    }
-
-    
     .blackbox{
         background-color: black;
         color:#ffffff;
@@ -114,6 +90,48 @@ body{
         margin: 3%;
         color:beige;
     }
+    #processlist{
+        
+        counter-reset:li;
+    }
+    
+    #processlist > li:before{
+
+        content: counter(li)" / " ; /* Use the counter as content */
+        counter-increment:li;
+        font-weight: bold;
+        font-size: 1.7em;
+
+    }
+    .processtepheader{
+        display: inline-flex;
+        width: 80%;
+    }
+@media screen and (min-width: 768px) {     
+    .mobile{
+        display: none;
+    }
+    #wrapper{
+        margin: 0;
+        padding:0;
+        height: 100%;
+        padding-top: 40px;
+    }
+    
+    
+    .ourwork{
+        color:#000000;
+        font-size: 100px;
+        text-align: center;
+        height: 100%;
+        background: url("./images/sparks.jpg") no-repeat center center fixed;
+        background-size: cover;
+
+
+    }
+
+    
+    
 
     .fold-1
     {
@@ -128,7 +146,7 @@ body{
         width: 80%;
         display: block;
         margin: 0 auto;
-        border-top: 1px solid transparent;
+        border-top: 1px solid transparent; /*stupid css hack*/
     }
     .fold-3{
         border-top: 1px solid grey;
@@ -173,9 +191,6 @@ body{
     .processtepheader{
         display: inline-flex;
         width: 80%;
-    }
-    {
-        margin: 5%;
     }
     p.checkout, h3.checkout{
         margin: 5%;
@@ -320,7 +335,28 @@ body{
     .fold-1{
         height: 100vh;
     }
+    .fold-3{
+        border-top: 1px solid grey;
+    }
+    .fold-4{
+        background-color: beige;
+        border-bottom: 1px solid transparent;
+    }
+    .fold-5{
+        border-top: 1px solid transparent;
+
+        
+    }
+    #hireus{
+        background: url("./images/otherside.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+    }
     .mission{font-size: 15vw;
         line-height: 11vh;
+    }
+    #processlist > li{
+        padding:4px 8px;
+        list-style-type: none;
     }
 }
