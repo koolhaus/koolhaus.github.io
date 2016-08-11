@@ -55,6 +55,16 @@ a:visited{
         position: relative;
         top:18%;
     }
+    .ourwork{
+        color:#000000;
+        font-size: 100px;
+        text-align: center;
+        height: 100%;
+        background: url("./images/sparks.jpg") no-repeat center center fixed;
+        background-size: cover;
+
+
+    }
     .whitebox{
         background-color: white;
         border:3px solid black;
@@ -338,7 +348,7 @@ a:visited{
 }
 @media (max-width: 480px) { 
     #navlist{display: none;}
-    .fold-1{
+    .fold-1,.ourwork{
         height: 100vh;
     }
     .fold-3{
@@ -384,7 +394,19 @@ a:visited{
     .clientimage{
         margin-top: 10%;
     }
-    .sm-hidden{display: none}    
+    .sm-hidden{display: none}
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        padding:3%;
+    }
+    .s-odd{
+        background-color: #f1f1f1;
+        flex-wrap: wrap-reverse;
+    }
+    .half{
+        width: 100%;
+    }   
 }
 
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
