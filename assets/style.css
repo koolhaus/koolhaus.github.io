@@ -18,6 +18,9 @@ body{
     width:100%;
 
 }
+a:visited{
+    color:inherit;
+}
 .centered{
         text-align: center;
 }
@@ -308,9 +311,12 @@ body{
         margin:2%;
         
     }
-
+    
 }
-
+@media only screen and (min-width: 680px) {
+    
+    .md-hidden{display: none} 
+}
 @media only screen and (max-width: 680px) { 
     #logo{
         width: 15%;
@@ -359,4 +365,29 @@ body{
         padding:4px 8px;
         list-style-type: none;
     }
+    .checkout{
+        font-size: 1.2rem;
+    }
+    .clientbox{
+        width: 256px;
+        height: 160px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #d4d4d4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .browsercontrol{
+        border-bottom: .5px solid black;
+        font-size: .1rem;
+    }
+    .clientimage{
+        margin-top: 10%;
+    }
+    .sm-hidden{display: none}    
 }
+
+@media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
+    .sm-hidden{display: none}
+}
+
