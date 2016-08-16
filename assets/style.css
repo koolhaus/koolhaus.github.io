@@ -385,21 +385,28 @@ a:visited{
     .checkout{
         font-size: 1.2rem;
     }
+    .clientheader{
+        font-size: 1.2em;
+        border:1px solid black;
+        box-shadow: 1px 1px 5px #d4d4d4;
+        text-align: center;
+    }
     .clientbox{
         width: 256px;
-        height: 160px;
+        height: 200px;
         border: 1px solid gray;
         border-radius: 5px;
         box-shadow: 1px 1px 5px #d4d4d4;
         margin-right: auto;
         margin-left: auto;
+        padding: 2%;
     }
     .browsercontrol{
         border-bottom: .5px solid black;
         font-size: .1rem;
     }
     .clientimage{
-        margin-top: 10%;
+        margin-top: 23%;
     }
     .clientinfo{
         padding:0 5%;
