@@ -4,6 +4,7 @@ html{
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    font-family: 14px/26px 'Noto Sans', sans serif;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -399,6 +400,19 @@ a:visited{
     }
     .clientimage{
         margin-top: 10%;
+    }
+    .clientinfo{
+        padding:0 5%;
+        font-size: .75em;
+        
+
+    }
+    .clientinfo p{
+        margin:3%;
+    }
+    .clientinfo ul{
+        list-style-position: inside;
+        text-indent: inherit each-line;
     }
     .sm-hidden{display: none}
     .section{
