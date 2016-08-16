@@ -49,9 +49,7 @@ a:visited{
         height:100%;
         margin: 0;
     }
-#logo{
-        width: 3%;
-    }
+
     #takeon{
         position: relative;
         top:18%;
@@ -439,6 +437,23 @@ a:visited{
 
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
     .sm-hidden{display: none}
+    #navlist{display: none;}
+    .fold-1,.ourwork{
+        background-attachment: local;
+        height: 100vw;
+    }
+    .mission{
+        font-size: 10vw;
+        line-height: 25vh;
+        
+    }
+
+    #logo{
+        height: 50px;
+        width: auto;
+        margin: 1%;
+    }
+
 }
 
 .whiteback{
