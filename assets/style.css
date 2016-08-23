@@ -453,7 +453,34 @@ a:visited{
         width: auto;
         margin: 1%;
     }
-
+    #processlist > li{
+        padding:14px 18px;
+        
+    }
+    #processlist > li:before{
+        font-size: 2.5em;
+    }
+    .processtepheader{
+        font-size: 2.5em;
+    }
+    .clientbox{
+        width: 256px;
+        height: 200px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #d4d4d4;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2%;
+    }
+    .browsercontrol{
+        border-bottom: .5px solid black;
+        font-size: .1rem;
+    }
+    .clientwindow{height: 90%;}
+    .clientimage{
+        margin-top: 23%;
+    }
 }
 
 .whiteback{
