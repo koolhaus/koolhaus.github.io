@@ -284,6 +284,13 @@ a:visited{
         position: relative;
         top: 40%;
     }
+    .clientinfospiel{
+        margin:1% 1%;
+    }
+    .clientinfolist{
+        padding: 3%;
+        margin: 1% 5%;
+    }
     .half{
         width: 50%;
     }
