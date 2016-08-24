@@ -17,8 +17,9 @@
 </head>
 <body>
 <div id="wrapper">
-    <nav id=topnav> <a href="/"><img src="./assets/images/kh.png" id="logo"></a>
-    
+    <nav id=topnav>
+        <a href="/"><img src="./assets/images/kh.png" id="logo"></a>
+        <a onclick="toggle_visibility('navlist');" id="navtoggle" class="mobile"> <img src="./assets/images/menu-icon.png"> </a>
         <ul id="navlist" class="collapsing-navigation">
             <a><li>our mission</li></a>
             <a><li>our process</li></a>
@@ -26,7 +27,7 @@
             <a href="/work"><li>our work</li></a>
             <a><li>hire us</li></a>
         </ul>
-        <button onclick="toggle_visibility('navlist');" class="mobile"> /*/ </button>
+        
     </nav>
     <div class="fold-1">
         <div class="banner-box">

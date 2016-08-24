@@ -359,6 +359,9 @@ a:visited{
 }
 @media (max-width: 480px) { 
     #navlist{display: none;}
+    #navtoggle{
+        float: right;
+    }
     .fold-1,.ourwork{
         background-attachment: local;
         height: 100vh;
@@ -448,6 +451,9 @@ a:visited{
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
     .sm-hidden{display: none}
     #navlist{display: none;}
+    #navtoggle{
+        float: right;
+    }
     .fold-1,.ourwork{
         background-attachment: local;
         height: 100vw;
@@ -482,6 +488,9 @@ a:visited{
     .s-odd{
         background-color: #f1f1f1;
         flex-wrap: wrap-reverse;
+    }
+    .half{
+        width: 100%;
     }
     .clientbox{
         height:80vh;
