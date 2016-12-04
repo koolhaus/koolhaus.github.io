@@ -350,9 +350,14 @@ address{
         background-attachment: local;
         height: 100vh;
     }
-    .mission{font-size: 15vw;
+    .mission{
+        font-size: 13vw;
         line-height: 11vh;
-    }   
+        white-space: pre-line;
+    }
+    .banner-box{
+        display: inline-flex;
+    }
 }
 
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
@@ -367,6 +372,7 @@ address{
     .mission{
         font-size: 10vw;
         line-height: 25vh;
+
         
     }
 
