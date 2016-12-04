@@ -3,6 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="./assets/extracleanstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script type="text/javascript">
         <!--
         function toggle_visibility(id) {
@@ -18,11 +20,12 @@
 <body>
 <div id="wrapper">
     <nav id=topnav>
-        <a href="/"><img src="./assets/images/kh-w.png" id="logo"></a>
+        <a href="/"><img src="./assets/images/kh-borderless.png" id="logo"></a>
         <a onclick="toggle_visibility('navlist');" id="navtoggle" class="mobile"> <img src="./assets/images/menu-icon.png"> </a>
         <ul id="navlist" class="collapsing-navigation">
             <li><a class="navlink" href="#mission">our mission</a></li>
             <li><a class="navlink" href="#hireus">hire us</a></li>
+            <li><a class="navlink" href="http://inbitbox.com">→</a></li>
         </ul>
     </nav>
     <div id="mission" class="fold-1">
@@ -31,41 +34,46 @@
         </div>
         
         <div id="takeon" class="whitebox"> We take on the immense challenges that matter to our clients and, often, to the world. Our mission is to help our clients make distinctive, lasting, and substantial strides toward their vision.
-
+        <br>
+        <br>
         In short—our mission is your mission.</div>
         </div>
-    <div id="process" class="fold-2">
+    <div id="hireus" class="fold-2">
         <h1 class="bluebox mission">Hire Us</h1>
         <div id='actions'>
             <div class='half'>
-                <div id="referral">
-                    <div  class="whitebox">
-                    <h5> Refer a client. And we'll give you: </h5>
-                    <div class="money"> $50</div>
-                    </div>
+                <div class='card'>
+                <div class='contactListHeader'>
+                    <h1>We love hearing from you.</h1>
                 </div>
-                <div  class="whitebox">
-                    Call Us<br> ☎ 313-355-3338
-                    <br>
-                    <hr>
-                    Email us<br>✉ <a href="mailto:info@koolhaus.in">info@koolhaus.in</a>
-                    <br>
-                    <hr>
-                    We love hearing from you!!!
-                </div> 
+                <ul id="contactList" >
+                    <li class="contactListItem"><i class="material-icons">phone</i> <span> 313-355-3338</span><subext></subext></li>
+                    <li class="contactListItem"><i class="material-icons">email</i><span> <a href="mailto:info@koolhaus.in">info@koolhaus.in</a></span></li>
+                    <li class="contactListItem"><i class="material-icons">home</i><span><address>1548 Atkinson Detroit Michigan 48221</address></span></li>
+                </ul>
+                </div>
+
+                <div id="referral" class="bluebox">
+                    
+                    <h2> Refer a client.</h2>
+                    <div class="money"> $50</div>
+                    <h3>And we'll give you</h3>
+                    
+                </div>  
             </div>
             
-            <div class="half">
+            <div class="half ">
                 <form id='contactUs'>
-                    <h3>We love hearing from you</h3>
+                    <h2>Say Kool Things</h2>
 
                     <input type="text" name="clientsName" placeholder="Your name">
                     <input type="email" name="clientsEmail" placeholder="Your Email">
-                    <textarea rows="15"> </textarea>
+                    <input type="" name="clientsPhoneNumber" placeholder="Your Phone Number">
+                    <textarea rows="15" placeholder="Leave us a note"> </textarea>
+                    <button type="submit" onclick="location.href=`mailto: ${document.forms.contactUs.}`">Submit</button>
                 </form>            
             </div>
         </div>
-        
         
         <div id="wantto"><h1  class="centered whitebox">You know you want to.</h1> </div>
             
