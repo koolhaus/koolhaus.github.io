@@ -44,11 +44,7 @@ address{
     width:80%;
     margin: 0 auto;
 }
-.half{
-    width:50%;
-    display: flex;
-    flex-flow: wrap column;
-}
+
 .centered{
     text-align: center;
 }
@@ -97,8 +93,8 @@ address{
     background-color: white;
     border-radius: 3px;
     margin: 1%;
-    padding:1%;
-
+    padding:1.5%;
+    border: 2px solid black;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
     
 }
@@ -217,9 +213,6 @@ address{
     margin: 3%;
     border-bottom: 1px dashed black;
     width: 80%;
-    flex-grow: 3;
-    flex-basis: 33%;
-    height: 33%;
     background-color: beige;
     
 }
@@ -242,7 +235,12 @@ address{
 #contactUS button::hover{
     box-shadow: 0 -16px 24px 2px rgba(0,0,0,0.14),0 -6px 30px 5px rgba(0,0,0,0.12),0 -8px 10px -5px rgba(0,0,0,0.3);
 }
-@media screen and (min-width: 768px) {     
+@media screen and (min-width: 768px) {  
+    .half{
+    width:50%;
+    display: flex;
+    flex-flow: wrap column;
+}   
     .mobile{
         display: none;
     }
@@ -357,6 +355,14 @@ address{
     }
     .banner-box{
         display: inline-flex;
+    }
+    #takeon{
+        position: relative;
+    top: 10%;
+    width: 88%;
+    font-size: 16pt;
+    
+    
     }
 }
 
