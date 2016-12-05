@@ -393,4 +393,7 @@ address{
         width: auto;
         margin: 1%;
     }
+    .desktop{
+        display: none;
+    }
 }
