@@ -340,6 +340,9 @@ address{
 
 }
 @media (max-width: 480px) { 
+    #logo{
+        padding:2% 0 0 2%;
+    }
     #navlist{display: none;}
     #navtoggle{
         float: right;
@@ -361,9 +364,12 @@ address{
     top: 10%;
     width: 88%;
     font-size: 16pt;
-    
-    
     }
+    
+    .desktop{
+        display: none;
+    }
+
 }
 
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
