@@ -189,6 +189,7 @@ address{
     border-radius: 8px;
     margin:1%;
 
+
 }
 #contactUs input{
     margin: 5% 2%;
@@ -196,7 +197,7 @@ address{
     width: 80%;
     outline: none;
     border:0;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
     margin-bottom: 1px;
     background-color: beige;
@@ -204,22 +205,25 @@ address{
 #contactUs input:focus{
     outline: none;
     outline-width: 0;
-    margin-bottom: 0;
-    border-bottom: 2px solid black;
-    transition: all 0.3s;
+    margin-bottom: 1px;
+    border-bottom: 2px solid #26a69a;
+    transition: all .3s;
 }
 #contactUs textarea{
+    height: auto;
     border:0;
     margin: 3%;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px solid black;
     width: 80%;
     background-color: beige;
+    flex-grow: 2;
     
 }
 #contactUs textarea:focus{
+    border:0;
     outline: none;
     outline-width: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #26a69a;
     margin: 3%;
 }
 
@@ -340,6 +344,7 @@ address{
 
 }
 @media (max-width: 480px) { 
+    input, textarea{ border-radius: 0;}
     #logo{
         padding:2% 0 0 2%;
     }
@@ -361,15 +366,17 @@ address{
     }
     #takeon{
         position: relative;
-    top: 10%;
-    width: 88%;
-    font-size: 16pt;
+        top: 10%;
+        width: 88%;
+        font-size: 16pt;
     }
     
     .desktop{
         display: none;
     }
-
+    #wantto{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
