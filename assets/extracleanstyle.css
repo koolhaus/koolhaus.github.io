@@ -80,6 +80,11 @@ address{
     height:100%;
     margin: 0;
 }
+#koolFold{
+    background-color: #26a69a;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    font-family: "Roboto" "sans-serif";
+}
 .fold-2{
     display: flex;
     flex-flow: nowrap column;
@@ -87,6 +92,39 @@ address{
     width: 100%;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
 
+}
+.cardList{
+
+}
+.cardListHeader{
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px 3%;
+    padding-top: 20px;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.cardedList > li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding: 18px;
+    margin: 0px;
+    list-style: none;
+    background-color: #FAFAFA;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 16px;
+    border-bottom: 1px solid #ECECEC;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.cardText{
+    padding:16px;
+    font-size: 16px;
 }
 
 #takeon{
@@ -97,13 +135,35 @@ address{
     border-radius: 3px;
 }
 #theKool{
-    padding: 2%;
+    padding: 3%;
+    background-color: #26a69a;
+    color:white;
+    width:50%;
+    position: relative;
+    left:8%;
+    font-weight: 300;
+    font-size: 22px;
+    margin-right: 2%;
 }
-#theKool p{
-    margin:1%;
+#theKool > h1{
+    margin-bottom:5%;
+    font-size: 48px;
+}
+#theKool > p{
+    margin:0 2% 3% 0;
+}
+#atKoolhaus{
+    margin:3% 0 0 0;
+    padding:1%;
+    font-size: 21px;
+}
+
+#ourprocess{
+    width:38%;
+    margin: 5%;
 }
 #ourprocess{
-    padding: 2%;
+    list-style: none;
 }
 .whitebox{
     background-color: white;
@@ -112,6 +172,7 @@ address{
     padding:1.5%;
     border: 2px solid black;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    color:black;
     
 }
 .bluebox{
@@ -260,7 +321,12 @@ address{
     width:50%;
     display: flex;
     flex-flow: wrap column;
-}   
+    }   
+    .third{
+    width:33%;
+    display: flex;
+    flex-flow: wrap column;
+    }
     .mobile{
         display: none;
     }
