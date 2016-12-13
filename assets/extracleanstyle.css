@@ -82,6 +82,7 @@ address{
 }
 #koolFold{
     background-color: #26a69a;
+    flex-flow: row wrap;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
     font-family: "Roboto" "sans-serif";
 }
@@ -162,8 +163,17 @@ address{
     width:38%;
     margin: 5%;
 }
-#ourprocess{
+#ourprocess li{
     list-style: none;
+}
+#life{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 76px;
+    color:white;
+    margin: 2% 0 2% 0;
 }
 .whitebox{
     background-color: white;
