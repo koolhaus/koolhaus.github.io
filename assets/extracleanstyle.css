@@ -114,7 +114,7 @@ address{
     width: 100%;
     padding: 18px;
     margin: 0px;
-    list-style: none;
+    
     background-color: #FAFAFA;
     background-repeat: no-repeat;
     background-size: 24px;
@@ -126,6 +126,22 @@ address{
 .cardText{
     padding:16px;
     font-size: 16px;
+}
+.cardText > h4{
+    margin:2% 0 2% 0;
+} 
+ul.cardText{
+    width: 100%;
+    padding:0 16px;
+    display: inline-block;
+    column-count: 2;
+    
+    list-style-position: outside;
+    column-gap:37px;
+}
+ul.cardText>li{
+    padding: 0;
+    width: auto;
 }
 
 #takeon{
@@ -164,7 +180,7 @@ address{
     margin: 5%;
 }
 #ourprocess li{
-    list-style: none;
+    
 }
 #life{
     text-align: center;
