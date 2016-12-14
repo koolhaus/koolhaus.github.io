@@ -112,7 +112,7 @@ address{
     display: inline-block;
     float: left;
     width: 100%;
-    padding: 18px;
+    padding: 14px;
     margin: 0px;
     
     background-color: #FAFAFA;
@@ -121,11 +121,14 @@ address{
     background-position: 16px;
     border-bottom: 1px solid #ECECEC;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 14px;
 }
 .cardText{
-    padding:16px;
-    font-size: 16px;
+    
+    font-size: 13px;
+}
+.cardText > p{
+    margin:3px 0px 3px 0px;
 }
 .cardText > h4{
     margin:2% 0 2% 0;
@@ -133,15 +136,16 @@ address{
 ul.cardText{
     width: 100%;
     padding:0 16px;
-    display: inline-block;
-    column-count: 2;
+    column-gap: 33px;
     
     list-style-position: outside;
-    column-gap:37px;
+    
 }
 ul.cardText>li{
+    white-space: pre-line;
     padding: 0;
     width: auto;
+    
 }
 
 #takeon{
@@ -177,8 +181,7 @@ ul.cardText>li{
 }
 
 #ourprocess{
-    width:38%;
-    margin: 5%;
+    font-size: 14px;
 }
 #ourprocess li{
     
@@ -258,7 +261,7 @@ ul.cardText>li{
     display: inline-block;
     float: left;
     width: 100%;
-    padding: 18px;
+    padding: 14px;
     margin: 0px;
     list-style: none;
     background-color: #FAFAFA;
@@ -288,11 +291,8 @@ ul.cardText>li{
     display: flex;
     flex-flow: nowrap column;
     padding:3%;
-    
-    
     border-radius: 8px;
     margin:1%;
-
 
 }
 #contactUs input{
@@ -364,7 +364,14 @@ ul.cardText>li{
         padding-top: 40px;
     }
 
-    
+    .cardText{padding:16px; font-size: 16px;}
+    ul.cardText{
+        padding:0 16px;
+        column-count: 2;
+        column-gap:37px;
+
+    }
+
     .fold-1
     {
         background: url("./images/nyny.jpg") no-repeat center center fixed;
@@ -380,6 +387,10 @@ ul.cardText>li{
     }
     #atKoolhaus{
         font-size: 21px;    
+    }
+    #ourprocess{
+        width:38%;
+        margin: 5%;
     }
     .fold-2{
         width: 100%;
