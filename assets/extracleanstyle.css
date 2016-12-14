@@ -155,11 +155,11 @@ ul.cardText>li{
     padding: 3%;
     background-color: #26a69a;
     color:white;
-    width:50%;
+    
     position: relative;
-    left:8%;
+    
     font-weight: 300;
-    font-size: 22px;
+    font-size: 16px;
     margin-right: 2%;
 }
 #theKool > h1{
@@ -173,6 +173,7 @@ ul.cardText>li{
     margin:3% 0 0 0;
     padding:1%;
     font-size: 21px;
+
 }
 
 #ourprocess{
@@ -364,8 +365,6 @@ ul.cardText>li{
     }
 
     
-    
-
     .fold-1
     {
         background: url("./images/nyny.jpg") no-repeat center center fixed;
@@ -374,6 +373,13 @@ ul.cardText>li{
         width:100%;
         height:100vh;
         margin: 0;
+    }
+    #theKool{
+        left:8%;
+        font-size: 22px;
+    }
+    #atKoolhaus{
+        font-size: 21px;    
     }
     .fold-2{
         width: 100%;
@@ -460,9 +466,19 @@ ul.cardText>li{
     #navtoggle{
         float: right;
     }
+    .third{
+        width: 100%;
+    }
     .fold-1{
         background-attachment: local;
         height: 100vh;
+    }
+    #koolFold{
+        display: flex;
+        flex-flow: column;
+    }
+    #atKoolhaus{
+        text-align: center;
     }
     .mission{
         font-size: 13vw;
