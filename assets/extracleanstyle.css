@@ -33,6 +33,7 @@ body{
     border-bottom: 1px solid black;
 
 }
+a{color:black}
 a:active{
     font-weight: bold;
 }
@@ -466,7 +467,7 @@ ul.cardText>li{
         width:-webkit-fit-content; 
         display: inline-block;
         margin:2%;
-        
+
         
     }
     
