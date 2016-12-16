@@ -346,7 +346,15 @@ ul.cardText>li{
 }
 #socialfooter{
     display: flex;
+}#socialfooter>*{
+    line-height: 1;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+}#socialfooter>*:hover{
+    line-height: 1;
+    text-shadow: rgba(0, 0, 0, .6) 4px 6px 8px;
 }
+
 @media screen and (min-width: 768px) {  
     .half{
     width:50%;
@@ -432,8 +440,6 @@ ul.cardText>li{
     #socialfooter>*{
 
         font-size: 42px;
-        line-height: 1;
-        text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
     }
 
 
@@ -537,13 +543,13 @@ ul.cardText>li{
         font-size: 13px;
     }
     #socialfooter{
-
+        margin-top: 10px;
         width: 300px;
         justify-content: space-between;
         
     }#socialfooter>*{
         font-size: 36px;
-        line-height: 1;
+
     }
 }
 
