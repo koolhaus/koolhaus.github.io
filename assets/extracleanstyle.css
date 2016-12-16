@@ -344,6 +344,9 @@ ul.cardText>li{
 #contactUS button::hover{
     box-shadow: 0 -16px 24px 2px rgba(0,0,0,0.14),0 -6px 30px 5px rgba(0,0,0,0.12),0 -8px 10px -5px rgba(0,0,0,0.3);
 }
+#socialfooter{
+    display: flex;
+}
 @media screen and (min-width: 768px) {  
     .half{
     width:50%;
@@ -419,7 +422,7 @@ ul.cardText>li{
         
     }
     #socialfooter{
-        display: flex;
+
         justify-content: space-between;
         width: 462px;
         margin-top: 25px;
@@ -432,6 +435,7 @@ ul.cardText>li{
         line-height: 1;
         text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
     }
+
 
   #topnav{
         width:100%;
@@ -531,6 +535,15 @@ ul.cardText>li{
     }
     #wantto{
         font-size: 13px;
+    }
+    #socialfooter{
+
+        width: 300px;
+        justify-content: space-between;
+        
+    }#socialfooter>*{
+        font-size: 36px;
+        line-height: 1;
     }
 }
 
