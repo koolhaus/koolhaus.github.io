@@ -532,8 +532,9 @@ ul.cardText>li{
     #takeon{
         position: relative;
         top: 10%;
-        width: 88%;
-        font-size: 16pt;
+        width: 92%;
+        font-size: 15pt;
+        margin-bottom: 10px
     }
     
     .desktop{
@@ -543,7 +544,7 @@ ul.cardText>li{
         font-size: 13px;
     }
     #socialfooter{
-        margin-top: 10px;
+        margin: 10px;
         width: 300px;
         justify-content: space-between;
         
