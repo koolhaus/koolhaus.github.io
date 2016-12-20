@@ -74,7 +74,7 @@ address{
 }
 .fold-1
 {
-    background: url("./images/nyny.jpg") no-repeat center center fixed;
+    background: url("./images/nyny-D.jpg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
     width:100%;
@@ -386,7 +386,7 @@ ul.cardText>li{
 
     .fold-1
     {
-        background: url("./images/nyny.jpg") no-repeat center center fixed;
+        background: url("./images/nyny-D.jpg") no-repeat center center fixed;
         background-size: cover;
         position: relative;
         width:100%;
