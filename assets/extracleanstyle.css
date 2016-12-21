@@ -55,9 +55,13 @@ address{
     text-align: center;
     background-color: white;
     margin: 1%;
-    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
     top: 30%;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
 
 }
 .banner-box{
@@ -74,6 +78,12 @@ address{
     background-size: cover;
     display: flex;
     flex-flow: wrap;
+}
+.row{
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    justify-content: space-around;
 }
 .fold-1
 {
@@ -97,6 +107,7 @@ address{
     padding:3%;
     margin:0;
 }
+
 .tile{
    
     background: url("./images/machine.jpg") no-repeat center center fixed;
@@ -106,6 +117,14 @@ address{
     flex-flow: row wrap;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
     font-family: "Roboto" "sans-serif";
+}
+#costFold{
+    background-color: beige;
+}
+#costFold > .row{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding:1% 0;
+    
 }
 .fold-2{
     display: flex;
@@ -264,6 +283,29 @@ ul.cardText>li{
     border-radius: 2px;
     box-sizing: border-box;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #FAFAFA;
+}
+.cardHeader{
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 2%;
+    font-weight: 600;
+    box-shadow: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.cardBody{
+    margin:3%;
+}
+.processCard{
+    font-size: 18px;
+    text-align: center;
+}
+.processCard i{
+    font-size: 2em;
+    
 }
 .contactListHeader{
 
@@ -385,6 +427,12 @@ ul.cardText>li{
     width:33%;
     display: flex;
     flex-flow: wrap column;
+    }
+    .fourth{
+        width: 25%;
+    }
+    .eighth{
+        width: 12.5%;
     }
     .mobile{
         display: none;
