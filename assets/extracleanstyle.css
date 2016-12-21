@@ -64,6 +64,8 @@ address{
     text-align: center;
     position: relative;
     top: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .fold{
     width:100%;
@@ -71,6 +73,7 @@ address{
     margin: 0;
     background-size: cover;
     display: flex;
+    flex-flow: wrap;
 }
 .fold-1
 {
@@ -80,6 +83,23 @@ address{
     width:100%;
     height:100%;
     margin: 0;
+}
+#koolwebsites{
+    background: url("./images/sparks.jpg") no-repeat center center;
+    background-size: cover;
+    position:relative;
+    height: 100vh;
+}
+#webprocess{
+    flex-flow: row wrap;
+}
+.webprocessstep{
+    padding:3%;
+    margin:0;
+}
+.tile{
+   
+    background: url("./images/machine.jpg") no-repeat center center fixed;
 }
 #koolFold{
     background-color: #26a69a;
