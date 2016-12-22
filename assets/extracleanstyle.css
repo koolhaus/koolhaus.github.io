@@ -105,13 +105,34 @@ address{
     flex-flow: row wrap;
 }
 .webprocessstep{
-    padding:3%;
+    padding:5%;
     margin:0;
+}
+.webprocessstep ul{
+    margin: 2%;
+    font-size: 20px;
+    text-indent: .1em;
+    list-style-position: inside;
+}
+.webprocessstep li{
+    margin: 2%;
 }
 
 .tile{
    
     background: url("./images/machine.jpg") no-repeat center center fixed;
+}
+.tileOverlay{
+    width: 100%;
+    height:100%;
+    margin:0;
+    background-color: gold;
+    opacity: 0.8;
+}
+#protractor{
+    position: absolute;
+    left:40%;
+    image-orientation:90deg;
 }
 #koolFold{
     background-color: #26a69a;
