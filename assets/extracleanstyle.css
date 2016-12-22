@@ -1,26 +1,26 @@
 /*** uncss> filename: http://localhost:4000/assets/style.css ***/
 html{
-    margin:0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
+    margin:0; /*?*/
+    font-family: sans-serif; 
+    box-sizing: border-box; /*?*/
+    height: 100%; /*?*/
+    width: 100%; /*?*/
     font-family: "Circular","Helvetica Neue", sans serif;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*, *:before, *:after { /*?*/
+    box-sizing: inherit; /*?*/
     padding:0;
     margin:0;
 
 }
-body{
-    height:100%;
+body{           /*?*/
+    height:100%; 
     margin: 0;
     padding: 0;
     width:100%;
 
 }
-.navlink{
+.navlink{ /*?topNavLink*/
     color:black;
     text-decoration: none;
     display: inline-block;
@@ -29,17 +29,18 @@ body{
     margin: 3%;
 
 }
-.navlink:hover{
-    border-bottom: 1px solid black;
+    .navlink:hover{
+        
 
-}
+    }
 a{color:black}
-a:active{
-    font-weight: bold;
-}
-a:hover{    }
+    a:active{
+        font-weight: bold;
+    }
+    a:hover{ font-weight: bold;
+        transition: all .3s;}
 address{
-    display: inline;
+        display: inline;
 }
 #takeon{
     width:80%;
