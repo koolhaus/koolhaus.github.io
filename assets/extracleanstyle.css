@@ -121,10 +121,12 @@ address{
 }
 #costFold{
     background-color: beige;
+    justify-content: center;
 }
 #costFold > .row{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding:1% 0;
+    width: 80%;
     
 }
 .fold-2{
@@ -442,6 +444,9 @@ ul.cardText>li{
     }
     .eighth{
         width: 12.5%;
+    }
+    .twelfth{
+        width:8.34%;
     }
     .mobile{
         display: none;
