@@ -6,6 +6,7 @@ html{
     height: 100%; /*?*/
     width: 100%; /*?*/
     font-family: "Circular","Helvetica Neue", sans serif;
+
 }
 *, *:before, *:after { /*?*/
     box-sizing: inherit; /*?*/
@@ -207,6 +208,15 @@ address{
     
     font-size: 13px;
 }
+.card hr{    
+    border-style: dotted;
+    color: #e8e8e8;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
 .cardText > p{
     margin:3px 0px 3px 0px;
 }
@@ -324,7 +334,7 @@ ul.cardText>li{
 .card{
     position: relative;
     display: inline-block;
-    height: auto;
+    height: fit-content;
     margin: 5px 10px;
     padding: 0px;
     background: white;
@@ -355,6 +365,9 @@ ul.cardText>li{
 .processCard{
     font-size: 18px;
     text-align: center;
+    font-family: Roboto;
+    font-weight: bolder;
+    letter-spacing: .05em;
 }
 .processCard i{
     font-size: 2em;
@@ -483,6 +496,9 @@ ul.cardText>li{
     }
     .fourth{
         width: 25%;
+    }
+    .sixth{
+        width:16.67%;
     }
     .eighth{
         width: 12.5%;
