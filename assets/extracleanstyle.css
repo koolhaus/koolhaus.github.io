@@ -247,7 +247,6 @@ ul.cardText>li{
 }
 #webelieve{
     position: relative;
-    top:12%;
     width: 80%;
     height: fit-content;
     font-size: 18pt;
@@ -536,6 +535,12 @@ ul.cardText>li{
     .mission{
         padding: 0 6px;
     }
+    .banner-box{
+        top: -10%;
+    }
+    #webelieve{
+        top:4%;
+    }
     #theKool{
         left:8%;
         font-size: 22px;
@@ -649,6 +654,12 @@ ul.cardText>li{
     #navlist{display: none;}
     #navtoggle{
         float: right;
+    }
+    #webelieve{
+        top:4%;
+        font-size: 1rem;
+        height: 43%;
+        
     }
     .third{
         width: 100%;
