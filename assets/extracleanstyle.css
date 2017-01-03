@@ -690,7 +690,9 @@ ul.cardText>li{
         font-size: 15pt;
         margin-bottom: 10px
     }
-    
+    .webprocessstep h2{
+        font-size: 1.27em;
+    }
     .desktop{
         display: none;
     }
@@ -706,6 +708,15 @@ ul.cardText>li{
         font-size: 36px;
 
     }
+    .m1{order: 1}
+    .m2{order: 2}
+    .m3{order: 3}
+    .m4{order: 4}
+    .m5{order: 5}
+    .m6{order: 6}
+    .m7{order: 7}
+    .m8{order: 8}
+
 }
 
 @media (max-width: 736px) and (orientation: landscape) { /*Steve Died==>Iphone Plus*/
