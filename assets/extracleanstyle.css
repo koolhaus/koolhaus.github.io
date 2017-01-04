@@ -663,6 +663,17 @@ ul.cardText>li{
         font-size: 1rem;
         height: 43%;        
     }
+    #webprocess{
+        background-attachment: local;
+        background-size: 100%;
+    }
+        .webprocessstep{
+            background-color:#ffd545;
+        }
+
+        .webprocessstep h2{
+            font-size: 1.27em;
+        }
     .third{
         width: 100%;
     }
@@ -692,8 +703,13 @@ ul.cardText>li{
         font-size: 15pt;
         margin-bottom: 10px
     }
-    .webprocessstep h2{
-        font-size: 1.27em;
+    .webprocessstep{
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    .webprocessstep h2.mobile, .webprocessstep h1{
+        text-align: center;
+        margin: 15% 0% 2% 0%;
     }
     .desktop{
         display: none;
@@ -710,14 +726,24 @@ ul.cardText>li{
         font-size: 36px;
 
     }
-    .m1{order: 1}
-    .m2{order: 2}
-    .m3{order: 3}
-    .m4{order: 4}
-    .m5{order: 5}
-    .m6{order: 6}
-    .m7{order: 7}
-    .m8{order: 8}
+    .m1{order: 1;}
+    .m2{order: 2;}
+    .m3{order: 3;
+        background-color: #75BBDE;
+        color:#fff;
+
+    }    
+    .m4{order: 4;}
+    .m5{order: 5;
+        background-color: #ffd545;
+        color:#000;
+    }
+    .m6{order: 6;}
+    .m7{order: 7;
+        background-color: #F9F9F9;
+        color:#5F7378;
+    }
+    .m8{order: 8;}
 
 }
 
