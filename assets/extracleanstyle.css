@@ -691,6 +691,9 @@ ul.cardText>li{
     #atKoolhaus{
         text-align: center;
     }
+    .headliner{
+        font-size: 13vw;
+    }
     .mission{
         font-size: 13vw;
         line-height: 11vh;
