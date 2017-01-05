@@ -676,6 +676,15 @@ ul.cardText>li{
     .processCard{
         font-size: 22px;
     }
+    #socialfooter{
+        margin: 10px auto;
+        width: 80vw;
+        justify-content: space-between;
+        
+    }#socialfooter>*{
+        font-size: 36px;
+
+    }
     .desktop{
         display: none;
     }
@@ -770,14 +779,8 @@ ul.cardText>li{
     #wantto{
         font-size: 13px;
     }
-    #socialfooter{
-        margin: 10px;
-        width: 300px;
-        justify-content: space-between;
-        
-    }#socialfooter>*{
-        font-size: 36px;
-
+    #socialfooter{width: 300px;
+        margin:10px;
     }
     
     
