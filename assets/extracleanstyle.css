@@ -637,7 +637,12 @@ ul.cardText>li{
     #logo{
         width: 15%;
     }
+    .row{
+        flex-flow: column wrap;
+        align-content: center;
+    }
     .half{width: 100%;}
+
     .sixth{
         width: 100%;
     }
@@ -697,9 +702,7 @@ ul.cardText>li{
 
 }
 @media (max-width: 480px) { 
-    .row{
-        flex-flow: column wrap;
-    }
+    
     input, textarea{ border-radius: 0;}
     #logo{
         padding:2% 0 0 2%;
