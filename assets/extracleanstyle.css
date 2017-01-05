@@ -647,6 +647,19 @@ ul.cardText>li{
     #navlist li{
         display: block;
     }
+    #koolwebsites{
+        height:200vh;
+    }
+    .mission{
+        font-size: 13vw;
+    }
+    #webelieve{
+        font-size: .8rem;
+        height: 20%;
+    }
+    .desktop{
+        display: none;
+    }
 
 }
 @media (max-width: 480px) { 
@@ -750,7 +763,7 @@ ul.cardText>li{
         color:#5F7378;
     }
     .m8{order: 8;}
-    .process
+    
 
 }
 
@@ -759,15 +772,14 @@ ul.cardText>li{
     #navtoggle{
         float: right;
     }
+
     .fold-1{
         background-attachment: local;
         height: 100vw;
     }
     .mission{
         font-size: 10vw;
-        line-height: 25vh;
-
-        
+        line-height: 25vh;    
     }
 
     #logo{
