@@ -715,6 +715,9 @@ ul.cardText>li{
     .third{
         width: 100%;
     }
+    #koolwebsites{
+        height: 100vh;
+    }
     .fold-1{
         background-attachment: local;
         height: 100vh;
