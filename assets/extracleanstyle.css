@@ -24,7 +24,7 @@ body{           /*?*/
 .navlink{ /*?topNavLink*/
     color:black;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 20px;
     white-space: nowrap;
     margin: 3%;
@@ -617,7 +617,7 @@ ul.cardText>li{
     #navlist{
         list-style: none;
         float:right;
-        width: 40%;
+        width: 45%;
         justify-content: space-between;
         display: flex;    
     }
@@ -640,6 +640,7 @@ ul.cardText>li{
     .row{
         flex-flow: column wrap;
         align-content: center;
+
     }
     .half{width: 100%;}
 
@@ -672,6 +673,9 @@ ul.cardText>li{
     .webprocessstep h2.mobile, .webprocessstep h1{
         text-align: center;
         margin: 15% 0% 2% 0%;
+    }
+    #costFold >.row{
+        border:0;
     }
     .processCard{
         font-size: 22px;
