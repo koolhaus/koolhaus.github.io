@@ -638,6 +638,9 @@ ul.cardText>li{
         width: 15%;
     }
     .half{width: 100%;}
+    .sixth{
+        width: 100%;
+    }
     .collapsing-navigation li{ 
         display: none;       
         margin:2%;
@@ -647,6 +650,9 @@ ul.cardText>li{
     }
     #navlist li{
         display: block;
+    }
+    .headliner{
+        font-size: 50px;
     }
     #koolwebsites{
         height:200vh;
@@ -661,6 +667,9 @@ ul.cardText>li{
     .webprocessstep h2.mobile, .webprocessstep h1{
         text-align: center;
         margin: 15% 0% 2% 0%;
+    }
+    .processCard{
+        font-size: 22px;
     }
     .desktop{
         display: none;
