@@ -254,7 +254,7 @@ ul.cardText>li{
 #webelieve{
     position: relative;
     width: 80%;
-    height: fit-content;
+    height: 16%;
     font-size: 18pt;
     border-radius: 3px;
 }
@@ -538,9 +538,7 @@ ul.cardText>li{
     .mission{
         padding: 0 6px;
     }
-    #koolwebsites .banner-box{
-        top: -10%;
-    }
+
     #webelieve{
         top:4%;
     }
@@ -633,6 +631,10 @@ ul.cardText>li{
     }
     
 }
+@supports (-webkit-appearance:none) {#koolwebsites .banner-box:not(*:root) {top:15%;}}
+    
+
+
 @media only screen and (max-width: 680px) { 
     #logo{
         width: 15%;
