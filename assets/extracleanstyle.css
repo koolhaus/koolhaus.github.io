@@ -117,6 +117,19 @@ address{
     height:100%;
     margin: 0;
 }
+#essays{
+    display: block;
+    width: 30%;
+    background-color:white;
+    padding: 5%;
+    height: 100%;
+}
+#essays a{
+    font: 30px;
+    margin:3%;
+    background-color: #fff;
+    color:#000;
+}
 #koolwebsites{
     background: url("./images/sparks.jpg") no-repeat center center;
     background-size: cover;
