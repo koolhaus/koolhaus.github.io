@@ -674,7 +674,8 @@ ul.cardText>li{
         display: block;
     }
     #essays{
-        width:50%;
+        width:67%;
+        font-size: 5vw;
     }
     .headliner{
         font-size: 50px;
