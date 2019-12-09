@@ -676,6 +676,7 @@ ul.cardText>li{
     #essays{
         width:67%;
         font-size: 5vw;
+        padding-left:10%;
     }
     .headliner{
         font-size: 50px;
