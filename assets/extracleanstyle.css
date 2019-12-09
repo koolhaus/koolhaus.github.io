@@ -566,6 +566,7 @@ ul.cardText>li{
         width:38%;
         margin: 5%;
     }
+
     .fold-2{
         width: 100%;
         padding:5% 10%;
@@ -671,6 +672,9 @@ ul.cardText>li{
     }
     #navlist li{
         display: block;
+    }
+    #essays{
+        width:50%;
     }
     .headliner{
         font-size: 50px;
